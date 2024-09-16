@@ -1,0 +1,19 @@
+using System;
+class Test{
+    public static void Main(string[] args){
+        // Console.WriteLine("My Name is: Islam Hossain");
+        /*
+        Console.WriteLine("I am 33 Years old");
+        Console.WriteLine("I am trying to be a Full-Stack Developer :)");
+        */
+        const string name = "Islam Hossain";
+        int age = 33;
+        string message = "I am trying to be a Full-Stack Developer :)";
+
+        // name = "Islam Hossain55";
+
+        Console.Write("My Name is: "+ name +"\n");
+        Console.WriteLine("I am "+ age +" Years old");
+        Console.WriteLine(message);
+    }
+}

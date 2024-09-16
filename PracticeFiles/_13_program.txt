@@ -1,0 +1,22 @@
+using System;
+class MyClass{
+    public static void Main(string[] args){
+        // int salary = 30000;
+        // double salary_total = salary;
+        // Console.WriteLine("Salary = " + salary);
+        // Console.WriteLine("Salary Total = " + salary_total);
+
+        // int salary = 30000;
+        // long salary_total = salary;
+        // Console.WriteLine("Salary = " + salary);
+        // Console.WriteLine("Salary Total = " + salary_total);
+
+        // double salary = 30000;        
+        // float salary_total = (float)salary;
+        // Console.WriteLine("Salary = " + salary);
+        // Console.WriteLine("Salary Total = " + salary_total);
+
+        int salary = 30000;
+        Console.WriteLine(Convert.ToDouble(salary));
+    }
+}
