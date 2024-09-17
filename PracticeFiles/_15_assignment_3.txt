@@ -1,0 +1,14 @@
+using System;
+class MyClass{
+    public static void Main(string[] args){
+
+        Console.Write("Enter your name: ");
+        string? name = Console.ReadLine();
+
+        Console.Write("Enter GPA: ");
+        double gpa = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Student Name: " + name);
+        Console.WriteLine("Student GPA: " + gpa);
+    }
+}
