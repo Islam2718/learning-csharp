@@ -1,0 +1,7 @@
+using System;
+class MyClass{
+    public static void Main(string[] args){
+        string? inputName = Console.ReadLine();
+        Console.WriteLine("Hello " + inputName);
+    }
+}

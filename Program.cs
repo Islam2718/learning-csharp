@@ -1,6 +1,7 @@
 ﻿using System;
-class Test{
+class MyClass{
     public static void Main(string[] args){
+
         int age = 10;
         double height = 5.6;
         string name = "Islam Hossain";
@@ -12,5 +13,9 @@ class Test{
         Console.WriteLine("Name: " + name);
         Console.WriteLine("Grade: " + grade);
         Console.WriteLine("Married: " + isMarried);
+
+        string? inputName = Console.ReadLine();
+        Console.WriteLine("Hello " + inputName);
+
     }
 }
