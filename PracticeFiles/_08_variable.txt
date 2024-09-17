@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 class Test{
     public static void Main(string[] args){
-        int age = 10;
+        int age = 10; 
         double height = 5.6;
         string name = "Islam Hossain";
         char grade = 'A'; //single quotation for character
@@ -12,5 +12,12 @@ class Test{
         Console.WriteLine("Name: " + name);
         Console.WriteLine("Grade: " + grade);
         Console.WriteLine("Married: " + isMarried);
+
+        // variable will like - 
+        // 1. descriptive
+        // 2. camel-case
+        // 3. meaningful
+        // 4. avoid single character
+        // 5. 
     }
 }
