@@ -1,22 +1,10 @@
-﻿using System;
-using System.ComponentModel;
-using System.Xml.Schema;
+using System;
 
 class Person {
-    private static string name = "Is";
+    public static string name = "Islam Hossain";
     public static int age = 33;
     protected static string nationalId = "1234567890";
-    private static int phoneNumber = 1234567890;
-
-    public string Name {
-        get{return name;} 
-        set{if(value.Length >= 10) name = value;}
-    }
-    public int PhoneNumber { 
-        get{return phoneNumber;} 
-        set{if(value > 0) phoneNumber = value;} 
-    }
-
+    
     public Person() {
         Console.WriteLine("I am trying to be a Full-Stack Developer :)");
         Display();
@@ -36,9 +24,8 @@ class Person {
 class Test {
     public static void Main(string[] args) {
         Person person = new Person();
-        Console.WriteLine("Name: " + person.Name);
-        Console.WriteLine("Age: " + Person.age); 
-        Console.WriteLine("Phone: " + person.PhoneNumber);
+        Console.WriteLine("My Name is 100: " + Person.name);
+        Console.WriteLine("I am 100: " + Person.age); 
+        // Console.WriteLine("National Id =" + Person.nationalId); || if protected not accessible
     }
 }
-//  readonly properties << Next >>

@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel;
+using System;
 using System.Xml.Schema;
 
 class Person {
@@ -41,4 +40,3 @@ class Test {
         Console.WriteLine("Phone: " + person.PhoneNumber);
     }
 }
-//  readonly properties << Next >>
